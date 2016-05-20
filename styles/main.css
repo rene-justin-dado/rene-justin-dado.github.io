@@ -1,0 +1,37 @@
+body {
+  background-color: #c495ba;
+}
+
+h1 {
+  background: #374489
+}
+
+#greeting {
+  background-color: #999;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+  display: block;  
+}
+
+/*Change Font*/
+p {
+  font: "Comic Sans MS";
+}
+
+/*Answers in blog posts*/
+li p {
+
+}
+
+a:link {
+    color: #FF0000;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:visited {
+    color: #00FF00;
+}
