@@ -38,10 +38,7 @@ p {
   font: "Georgia", serif;
   color: #7B3289;
   text-align: left;
-}
-
-ul li {
-
+  letter-spacing: 2px;
 }
 
 p a:link {
