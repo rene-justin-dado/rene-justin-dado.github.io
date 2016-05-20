@@ -1,37 +1,55 @@
 body {
   background-color: #c495ba;
+  margin: 0;
 }
 
-h1 {
-  background: #374489
+header {
+  background: #374489;
+  padding: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a:link {
+  color: white;
+}
+nav ul li a:hover {
+  color: teal;
 }
 
 #greeting {
   background-color: #999;
 }
 
+.nav {
+
+}
+
 img {
   height: 150px;
   width: 200px;
-  display: block;  
 }
 
-/*Change Font*/
+/*Answers/Statements*/
 p {
-  font: "Comic Sans MS";
+  font: "Georgia", serif;
+  color: #7B3289;
+  text-align: left;
 }
 
-/*Answers in blog posts*/
-li p {
+ul li {
 
 }
 
-a:link {
-    color: #FF0000;
+p a:link {
+    color: black;
 }
-a:hover {
-    color: #FF00FF;
+p a:hover {
+    color: brown;
 }
-a:visited {
-    color: #00FF00;
+p a:visited {
+    color: teal;
 }
