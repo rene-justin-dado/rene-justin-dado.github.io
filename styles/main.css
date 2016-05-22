@@ -1,5 +1,5 @@
 body {
-  background-color: #c495ba;
+  background-image: url("http://www.roadtovr.com/wp-content/uploads/2015/09/ghost-in-the-shell.jpg");
   margin: 0;
 }
 
@@ -36,7 +36,7 @@ img {
 /*Answers/Statements*/
 p {
   font: "Georgia", serif;
-  color: #7B3289;
+  color: #4C4444;
   text-align: left;
   letter-spacing: 2px;
 }
