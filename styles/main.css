@@ -8,19 +8,20 @@ header {
   padding: 20px;
 }
 
-.nav {
+nav {
   background-color: #A5429F;
   display: inline-block;
   margin: 10px, 30px;
   padding: 5px;
 }
 
-#greeting {
-  background-color: #999;
+nav ul li {
+  list-style: square;
+  color: red;
 }
 
-.container {
-  float: right;
+#greeting {
+  background-color: #999;
 }
 
 img {
@@ -32,7 +33,6 @@ img {
 p {
   font: "Georgia", serif;
   color: #4C4444;
-  text-align: left;
   letter-spacing: 2px;
 }
 
@@ -42,6 +42,19 @@ p a:link {
 p a:hover {
     color: brown;
 }
-p a:visited {
+p a:visited {../images/ghost-in-the-shell.jpg
     color: teal;
+}
+
+a aside:after {
+    background: url("../images/ghost-in-the-shell.jpg") center top no-repeat;
+    background: url("http://www.roadtovr.com/wp-content/uploads/2015/09/ghost-in-the-shell.jpg") center top no-repeat;
+    content: '';
+    height: 949px;
+    left: 50%;
+    margin-left: -215px;
+    position: fixed;
+    top: 165px;
+    width: 429px;
+    z-index: 1;
 }
