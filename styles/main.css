@@ -40,23 +40,22 @@ img {
   width: 200px;
 }
 
-/*Answers/Statements*/
 p {
   font: "Georgia", serif;
-  color: #4C4444;
   letter-spacing: 2px;
 }
 
 body:before {
     background: url("../images/ghost-in-the-shell.jpg") center top repeat;
     content: '';
-    width: 1980px;
-    height: 1080px;
+    width: 1200px;
+    height: 576px;
     opacity: 0.6;
-    background-position: right;
+    background-position: center;
     position: fixed;
-    max-width: 1920px;
-    max-height: 1080px;
+    max-width: 1024;
+    max-height: 576px;
+    left: 3.1%;
     z-index: -1;
 }
 
