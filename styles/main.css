@@ -32,7 +32,7 @@ nav ul li {
 }
 
 #preamble {
-  background-color: #999;
+  
 }
 
 img {
@@ -47,17 +47,17 @@ p {
   letter-spacing: 2px;
 }
 
-a aside:after {
-    background: url("../images/ghost-in-the-shell.jpg") center top no-repeat;
-    background: url("http://www.roadtovr.com/wp-content/uploads/2015/09/ghost-in-the-shell.jpg") center top no-repeat;
+body:before {
+    background: url("../images/ghost-in-the-shell.jpg") center top repeat;
     content: '';
-    height: 949px;
-    left: 50%;
-    margin-left: -215px;
+    width: 1980px;
+    height: 1080px;
+    opacity: 0.6;
+    background-position: right;
     position: fixed;
-    top: 165px;
-    width: 429px;
-    z-index: 1;
+    max-width: 1920px;
+    max-height: 1080px;
+    z-index: -1;
 }
 
 .grid {
