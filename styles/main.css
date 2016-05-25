@@ -47,16 +47,6 @@ p {
   letter-spacing: 2px;
 }
 
-p a:link {
-    color: black;
-}
-p a:hover {
-    color: brown;
-}
-p a:visited {
-    color: teal;
-}
-
 a aside:after {
     background: url("../images/ghost-in-the-shell.jpg") center top no-repeat;
     background: url("http://www.roadtovr.com/wp-content/uploads/2015/09/ghost-in-the-shell.jpg") center top no-repeat;
