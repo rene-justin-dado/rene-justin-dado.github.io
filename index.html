@@ -8,35 +8,42 @@
   
 
 
-  <body>
-    <header>
-      <nav id="site-nav">
-      <h1>The Life and Times of ME</h1>
-      <ul>
-          <li class="nav"><a>Home</a></li>
-          <!-- Link this to nav at bottom for blogs -->
-          <li class="nav"><a href="#">Blog</a></li>
-          <!-- Link to some contact details -->
-          <li class="nav"><a href="#">Contact</a></li>
-      </ul>
-      </nav>
+  <body>  
+    <header class="grid">
+      <div class="row">
+        <nav id="site-nav" class="col-4">
+        <ul>
+            <li class="nav"><a>Home</a></li>
+            <!-- Link this to nav at bottom for blogs -->
+            <li class="nav"><a href="#">Blog</a></li>
+            <!-- Link to some contact details -->
+            <li class="nav"><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+        <h1 class="col-8" id="title">The Life and Times of ME</h1>
+      </div>
     </header>
 
-    <section class="preamble">
-      <div id="greeting"><h2>The Journey of a thousand miles begins with one step
+    <section id="preamble" class="grid">
+      <div id="quotes" class="row"><h2>The Japanourney of a thousand miles begins with one step
       <br>
       <em>~Lao Tzu</em></h2></div>
 
-      <div class="concepts" class="col-4"><img src = "https://upload.wikimedia.org/wikipedia/en/f/f6/Ghost_in_the_Shell_Stand_Alone_Complex_Batou.png">
-      <p>Batou is a cyborg agent of "Section 9"; essentially the S.H.I.E.L.D. of a fictionalised future Japan based in the "Niihama prefecture".</p></div>
-      
-      <div class="concepts" class="col-4"><img src = "http://p3.pstatp.com/large/6553/2759688229">
-      <p>Andrew Martin was an android that gained sentience and in time, produced mechanical equivalents of <em>every</em> organ in the human body.</p></div>
+      <div class="row">
+        <div class="col-3"><img src = "https://upload.wikimedia.org/wikipedia/en/f/f6/Ghost_in_the_Shell_Stand_Alone_Complex_Batou.png"></div>
+        <!-- CSS these after the imgs -->
+        <p>Batou is a cyborg agent of "Section 9"; essentially the S.H.I.E.L.D. of a fictionalised future Japan based in the "Niihama prefecture".</p>
+
+        <div class="col-3"><img src = "http://p3.pstatp.com/large/6553/2759688229"></div>
+        <!-- CSS these after the imgs -->
+        <p>Andrew Martin was an android that gained sentience and in time, produced mechanical equivalents of <em>every</em> organ in the human body.</p>
+      </div>
       <br>
       <p>
       It is only because of the current constraints of technology that you consider these situations fictional. Wait 'til <em>I</em> get a chance to do some work.
+      </p>  
     </section>
-    </p>  
+
     <br>
     <br>
     
