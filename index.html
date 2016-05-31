@@ -8,18 +8,38 @@
   <body>
 
   <header>
-    <nav class="col-4">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-    <div class="col-1">1-col</div> <!-- negative space -->
-    <div class="col-3">Social Media Links</div>
-    <div class="col-1">1-col</div> <!-- negative space -->
-    <div class="col-4">The Life and Times of me</div>
+    <div class="row">
+      <nav class="col-4">
+        <ul>
+          <li>Blog</li>
+          <li>Projects</li>
+          <li>About</li>
+        </ul>
+      </nav>
+      <div class="col-1">1-col</div> <!-- negative space -->
+      <div class="col-3">Social Media Links</div>
+      <div class="col-1">1-col</div> <!-- negative space -->
+      <div class="col-4">The Life and Times of me</div>
+    </div>
   </header>
+  
+  <!-- This container is Zeus. It represents -ve space around the contents and allows for setting up the grid layout for its many children -->
+  <div class="container">
+    <!-- think about adding something else to go beside the welcome -->
+    <div class="row">
+      <section>
+        <h1>Welcome!</h1>
+        <p>Hi! Here's my site.</p>
+      </section>
+    </div>
+    <!-- -ve space here -->
+    <div class="row">
+      <div class="col-12">
+        link to blog?
+      </div>
+    </div>
+    <!-- -ve space here -->
+  </div>
   
   </body>
 </html>
