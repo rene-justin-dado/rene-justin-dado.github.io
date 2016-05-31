@@ -1,0 +1,19 @@
+header {
+  border: solid 2px black;
+  border-radius: 5%;
+  background: brown;
+}
+
+
+
+nav ul li {
+  display: inline-block;
+}
+
+
+/* Media Queries */
+@media (max-width: 550px) {
+  span {
+    display: none;
+  }
+}
