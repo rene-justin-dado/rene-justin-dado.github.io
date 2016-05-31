@@ -1,3 +1,5 @@
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -6,6 +8,13 @@
     text-spacing: 1px;
 }
 
+/* Index */
+img {
+  height: 150px;
+  width: 200px;
+}
+
+/* Header */
 header {
   background: #374489;
   padding: 20px;
@@ -23,6 +32,12 @@ nav ul li {
   background-color: #37B262;
 }
 
+/* Content */
+p {
+  font: "Georgia", serif;
+  letter-spacing: 2px;
+}
+
 #site-nav {
   font-size: 20px;
 }
@@ -34,16 +49,6 @@ nav ul li {
 
 #technical-blog {
   list-style-type: none;
-}
-
-img {
-  height: 150px;
-  width: 200px;
-}
-
-p {
-  font: "Georgia", serif;
-  letter-spacing: 2px;
 }
 
 body:before {
@@ -60,6 +65,8 @@ body:before {
     z-index: -1;
 }
 
+
+/* Grid Framework */
 .grid {
     margin: 0 auto;
     max-width: 1200px;
