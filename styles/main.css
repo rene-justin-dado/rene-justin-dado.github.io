@@ -4,14 +4,17 @@ header {
   background: brown;
 }
 
-
-
 nav ul li {
   display: inline-block;
 }
 
+section.welcome {
+  border: solid 2px black;
+  border-radius: 5%;
+  background: green; 
+}
 
-/* Media Queries */
+/* Hide Social for Mobile */
 @media (max-width: 550px) {
   span {
     display: none;
