@@ -13,16 +13,23 @@ nav ul li {
 }
 
 section.welcome {
+  margin-top: 5%;
   border: solid 2px black;
   border-radius: 5%;
   background: green; 
 }
 
+footer {
+  margin-top: 10%;
+  border: solid 2px black;
+  border-radius: 5%;
+  background: blue;
+  position: absolute;
+}
+
 /* For Mobile (< 550px width) */
 @media (min-width: 550px) {
-  html {
-  margin: 2%;
-  }
+
 }
 
 @media (max-width: 550px) {
