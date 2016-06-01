@@ -16,7 +16,8 @@ section.welcome {
   margin-top: 5%;
   border: solid 2px black;
   border-radius: 5%;
-  background: green; 
+  background: green;
+  opacity: 0.9;
 }
 
 footer {
@@ -25,6 +26,21 @@ footer {
   border-radius: 5%;
   background: blue;
   position: absolute;
+}
+
+/* Background */
+body:before {
+    background: url("../images/ghost-in-the-shell.jpg") center top repeat;
+    content: '';
+    width: 1200px;
+    height: 576px;
+    opacity: 0.6;
+    background-position: center;
+    position: fixed;
+    max-width: 1024;
+    max-height: 576px;
+    left: 3.1%;
+    z-index: -1;
 }
 
 /* For Mobile (< 550px width) */
