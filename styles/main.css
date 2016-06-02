@@ -3,11 +3,12 @@ html {
   margin: 2%;
   }
 
-header {
+header.container {
   border: solid 2px black;
   border-radius: 5%;
   background: brown;
   padding-left: 5%;
+  margin: 0 3%;
   width: 90%;
   position: fixed;
   z-index: 5;
