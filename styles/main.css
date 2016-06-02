@@ -1,3 +1,4 @@
+/* General Styles */
 html {
   margin: 2%;
   }
@@ -11,6 +12,10 @@ header {
 
 nav ul li {
   display: inline-block;
+}
+
+.question {
+  margin-right: 2%;
 }
 
 .welcome {
@@ -28,10 +33,6 @@ footer {
   border-radius: 5%;
   background: blue;
   position: absolute;
-}
-
-.about-me {
-  list-style: 50%;
 }
 
 /* Background */
