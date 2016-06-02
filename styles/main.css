@@ -8,9 +8,10 @@ header {
   border-radius: 5%;
   background: brown;
   padding-left: 5%;
-  max-width: 100%;
-  position: absolute;
+  width: 90%;
+  position: fixed;
   z-index: 5;
+  top: 0;
 }
 
 footer {
@@ -26,6 +27,10 @@ nav ul li {
 }
 
 /* Class Styles */
+
+.content {
+  margin-top: 30%;
+}
 
 .question {
   margin-right: 2%;
@@ -59,11 +64,6 @@ body:before {
     left: 5%;
     z-index: -1;
     background-repeat: repeat;
-}
-
-/* For Mobile (< 550px width) */
-@media (min-width: 550px) {
-  
 }
 
 /* Social media links, show only on desktop */
