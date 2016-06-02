@@ -42,11 +42,9 @@ body:before {
     opacity: 0.6;
     background-position: center;
     position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    left: 3.1%;
+    left: 5%;
     z-index: -1;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 /* For Mobile (< 550px width) */
