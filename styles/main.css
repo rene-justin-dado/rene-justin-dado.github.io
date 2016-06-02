@@ -88,7 +88,9 @@ h4 { font-size: 2.0rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.6rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.2rem; line-height: 1.6;  letter-spacing: 0; }
 
-header { height: 28%;}
+header { height: 27.5%;}
+
+nav ul li { display: inline-block; }
 
 }
 
