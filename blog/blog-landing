@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blogs</title>
+    <meta charset="UTF-8">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <header class="container">
+      <div class="row">
+        <nav class="four columns">
+          <ul>
+              <li>
+                <a href="https://rene-justin-dado.github.io/">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+          </ul>
+        </nav>
+        <h1 class="eight columns">Blogs! Right Here!</h1>
+      </div>
+    </header>
+
+    <div class="content"></div>
+    <div class="container">
+      <div class="blog-type">
+        <h2>Cultural</h2>
+      </div>
+      <div><a href="https://rene-justin-dado.github.io/blog/c1-reflection-blog.html">These</a> are my first reflections from week one.</div>
+      <div><a href="https://rene-justin-dado.github.io/blog/c1-time-and-habits-blog.html">These</a> are musings on timeboxing.</div>
+      <div><a href="https://rene-justin-dado.github.io/blog/c2-emotional-intelligence.html">Here's</a> one about emotional intelligence.</div>
+      <div class="blog-type">
+        <h2>Technical</h2>
+      </div>
+      <div><a href="https://rene-justin-dado.github.io/blog/t2-html-css-dom-p1.html">Technical blog</a> one.</div>
+      <div><a href="https://rene-justin-dado.github.io/blog/t2-html-css-dom-p2.html">Technical blog</a> two.</div>
+    </div>
+  
+    <div class="comments">Theoretical Future Comments Section</div>
+
+    <footer>
+      <div>The Journey of a Thousand Miles Begins With One Step</div>
+      <div class="u-pull-right">~Lao Tzu</div>
+    </footer>
+  </body>
+</html>
