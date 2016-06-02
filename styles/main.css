@@ -29,7 +29,7 @@ nav ul li {
 /* Class Styles */
 
 .content {
-  margin-top: 30%;
+  margin-top: 10em;
 }
 
 .question {
@@ -71,4 +71,5 @@ body:before {
   span {
     display: none;
   }
+
 }
