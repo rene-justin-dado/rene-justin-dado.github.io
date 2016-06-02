@@ -7,8 +7,10 @@ header {
   border: solid 2px black;
   border-radius: 5%;
   background: brown;
-  padding: 1% 0;
-  width: 100%;
+  padding-left: 5%;
+  max-width: 100%;
+  position: absolute;
+  z-index: 5;
 }
 
 footer {
