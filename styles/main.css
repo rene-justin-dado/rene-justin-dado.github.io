@@ -6,6 +6,7 @@ header {
   border: solid 2px black;
   border-radius: 5%;
   background: brown;
+  padding: 1% 0;
 }
 
 nav ul li {
@@ -49,9 +50,10 @@ body:before {
 
 /* For Mobile (< 550px width) */
 @media (min-width: 550px) {
-
+  
 }
 
+/* Social media links, show only on desktop */
 @media (max-width: 550px) {
   span {
     display: none;
