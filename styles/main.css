@@ -12,8 +12,9 @@ nav ul li {
   display: inline-block;
 }
 
-section.welcome {
+.welcome {
   margin-top: 5%;
+  padding: 3%;
   border: solid 2px black;
   border-radius: 5%;
   background: green;
@@ -28,19 +29,24 @@ footer {
   position: absolute;
 }
 
+.about-me {
+  list-style: 50%;
+}
+
 /* Background */
 body:before {
     background: url("../images/ghost-in-the-shell.jpg") center top repeat;
     content: '';
-    width: 1200px;
-    height: 576px;
+    width: 90%;
+    height: 90%;
     opacity: 0.6;
     background-position: center;
-    position: fixed;
-    max-width: 1024;
-    max-height: 576px;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
     left: 3.1%;
     z-index: -1;
+    background-repeat: no-repeat;
 }
 
 /* For Mobile (< 550px width) */
