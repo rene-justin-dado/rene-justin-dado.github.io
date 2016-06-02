@@ -1,3 +1,4 @@
+
 /* General Element Styles */
 html { margin: 2%; }
 
@@ -28,10 +29,6 @@ nav ul li {
 }
 
 /* Class Styles */
-
-.content {
-  margin-top: 10em;
-}
 
 .question { margin-right: 2%; }
 
