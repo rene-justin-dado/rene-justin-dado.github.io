@@ -1,5 +1,8 @@
 /* General Element Styles */
-html { margin: 2%; }
+html {
+  margin: 2%;
+  font-size: 1.2em;
+}
 
 header.container {
   border: solid 2px black;
@@ -23,8 +26,6 @@ footer {
   top: 20px;
 }
 
-nav ul li { display: block; }
-
 body:before {
     background: url("../images/reach-for-the-stars.jpg") center top repeat-y;
     content: '';
@@ -36,6 +37,8 @@ body:before {
     z-index: -1;
 }
 
+/* Links */
+a:hover { color: #666; }
 
 /* Class Styles */
 
