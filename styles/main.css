@@ -26,6 +26,17 @@ footer {
 
 nav ul li { display: block; }
 
+body:before {
+    background: url("../images/reach-for-the-stars.jpg") center top repeat-y;
+    content: '';
+    opacity: 0.6;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    z-index: -1;
+}
+
 /* Class Styles */
 
 .content { margin-top: 10em; }
@@ -46,26 +57,16 @@ nav ul li { display: block; }
   opacity: 0.8;
 }
 
-/* Skeleton Derivative */
+/* Padding for grid contents */
 .column,
 columns { padding: 10%; }
 
-/* Background */
-body:before {
-    background: url("../images/ghost-in-the-shell.jpg") center top repeat-y;
-    content: '';
-    opacity: 0.6;
-    width: 90%;
-    height: 90%;
-    position: absolute;
-    left: 5%;
-    z-index: -1;
-}
-
+/* Big Screens */
 @media (min-width: 1075px) {
   header.container { margin: 0 8%;}
 }
 
+/* Small Screens */
 @media (min-width: 550px) {
 
 h1 { font-size: 3.6rem; line-height: 1.2;  letter-spacing: -.1rem;}
@@ -75,8 +76,20 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
+  /* Background */
+  body:before {
+      background: url("../images/ghost-in-the-shell.jpg") center top repeat-y;
+      content: '';
+      opacity: 0.6;
+      width: 90%;
+      height: 90%;
+      position: absolute;
+      left: 5%;
+      z-index: -1;
+  }
 }
 
+/* Tiny Screens */
 @media (min-width: 400px) {
 
 h1 { font-size: 3.2rem; line-height: 1.2;  letter-spacing: -.1rem;}
@@ -97,5 +110,4 @@ nav ul li { display: inline-block; }
   span {
     display: none;
   }
-
 }
