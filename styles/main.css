@@ -26,11 +26,6 @@ footer {
 
 nav ul li { display: block; }
 
-img {
-  height: 300px;
-  width: 300px;
-}
-
 /* Class Styles */
 
 .content { margin-top: 10em; }
