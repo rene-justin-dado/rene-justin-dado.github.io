@@ -84,7 +84,6 @@ columns { padding: 10%; }
     display: initial;
     text-align: center;
     max-width: 30%;
-    justify-self: flex-end;
     border: 2px solid teal;
     background: transparent;
   }
