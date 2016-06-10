@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Blog (part3)</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="row">
+        <nav class="four columns">
+          <ul>
+              <li>
+                <a href="https://rene-justin-dado.github.io/">Home</a>
+              </li>
+              <li>
+                <a href="https://rene-justin-dado.github.io/blog/blog-landing.html">Blog</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+          </ul>
+        </nav>
+        <h1 class="eight columns">T4 - My Technical Blog (0.4)</h1>
+      </div>
+    </header>
+
+    <div class="content"></div>
+    <div class="container">
+
+      <h3>Some technical knowledge. (this concerns javascript)</h3>
+      <div class="row">
+        <div class="three columns">
+          <h5>How does JavaScript compare to HTML and CSS?</h5>
+        </div>
+        <div class="eight columns offset-by-one">
+          <p>It's decidedly a much, <em>much</em> more dynamic language. It doesn't only define variables; It also manipulates those variables, performs a myriad of tasks based on the contexts those variables come in, It can even add elements into the DOM based on function calls from HTML.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <h5>Explain control flow and loops using an example process from everyday life.</h5>
+        </div>
+        <div class="eight columns offset-by-one">
+          <p>Take snacking as an example here. (Or some proper meal of your choice.) Break up the task into smaller functions: like: search and eat.
+          We might define a loop that says: WHILE it's not yet bedtime, check the fridge every couple of hours. <em>IF</em> we find something to clog our arteries, it's coming out of the fridge.
+          Once we've got something <em>subjectively</em> nice on our plate, we loop through the next function in our control flow, like: fork in cake, cake in mouth, teeth on cake, cake in belly.
+          <br>
+          Our search function here appears first, so it's at the forefront of the control flow and runs every 2 hours. Once we find something the 'IF' statement takes control and does its job of retrieving our guilty pleasure. Then we can pass control onto our eating function (which we'd call in the IF statement) which will loop through the act of getting the nom-nom into your tum-tum.
+          <br>
+          <!-- (tum-tum... wtf?) -->
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <h5>Explain the difference between accessing data from arrays and object literals.</h5>
+        </div>
+        <div class="eight columns offset-by-one">
+          <p>Arrays are basically lists that can store other data types, including other arrays; Where the data are organised into their own little numbered box, called an index. By using the pattern: <code>arrayName[index]</code> <br>
+          We can access the data from any index.
+          <br>
+          Objects are a bit different. They're a bit more precise in that, instead of just a numbered box, they can have words as their labels. Because of that objects have two patterns for accessing their data. We take a similar pattern from arrays: <code>objectName.labelName or objectName[Label Name]</code> <br>
+          The first pattern is only used when you know the exact label you need and it has no spaces. The second pattern is required for labels that have spaces or are getting the name from some other part of the document.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <h5>Explain what functions are and why they are useful.</h5>
+        </div>
+        <div class="eight columns offset-by-one">
+          <p>Functions are great! They allow you to essentially have a pre-defined process for doing things that can be based on variables either defined in your document or given by a user. Simply put, they're an action plan that teaches the computer what to do in response to different events.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="comments">Theoretical Future Comments Section</div>
+
+    <footer class="container">
+      <div>The Journey of a Thousand Miles Begins With One Step
+        <div class="u-pull-right">~Lao Tzu</div>
+      </div>
+    </footer>
+  </body>
+</html>
