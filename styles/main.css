@@ -60,6 +60,16 @@ a:hover { color: #666; }
   opacity: 0.8;
 }
 
+.blog-post {
+  background: #283979;
+  opacity: 0.8; 
+}
+
+.blog-type h2, div.blog-post {
+  opacity: 1;
+  color: black;
+}
+
 .suggest-bar { display: none; }
 
 /* Padding for grid contents */
