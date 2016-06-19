@@ -65,7 +65,10 @@ a:hover { color: #666; }
 
 .blog-post {
   background: #283979;
-  opacity: 0.8; 
+  opacity: 0.8;
+  border: solid red 1px;
+  height: 8em;
+  overflow: scroll;
 }
 
 .blog-type h2, div.blog-post {
