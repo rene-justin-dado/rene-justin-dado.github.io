@@ -17,6 +17,7 @@ header.container {
 }
 
 div.container { margin-right: 2%; }
+
 .row { margin-bottom: 1%; }
 
 footer {
@@ -47,8 +48,6 @@ a:hover { color: #666; }
 
 .content { margin-top: 10em; }
 
-.question { margin-right: 2%; }
-
 .welcome {
   margin-top: 5%;
   padding: 3%;
@@ -58,14 +57,22 @@ a:hover { color: #666; }
   opacity: 0.9;
 }
 
+.blog-title {
+  background: teal;
+}
+
 .blog-type {
   background: green;
   opacity: 0.8;
+  overflow: auto;
+  height: 8em;
 }
 
 .blog-post {
   background: #283979;
-  opacity: 0.8; 
+  opacity: 0.8;
+  overflow: scroll;
+  height: 10em;
 }
 
 .blog-type h2, div.blog-post {
