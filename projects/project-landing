@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Projects</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="row">
+        <nav class="four columns">
+          <ul>
+              <li>
+                <a href="https://rene-justin-dado.github.io/">Home</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+          </ul>
+        </nav>
+        <h1 class="eight columns">Some stuff I've helped make</h1>
+      </div>
+    </header>
+
+    <div class="content"></div>
+    <div class="flexbox">
+      <div class="container">
+        <div class="row blog-type">
+          <h2>Solo</h2>
+        </div>
+        <div class="row">
+          <div class="three columns blog-post">
+            My <a href="https://rene-justin-dado.github.io/minesweeper/">minesweeper</a> game is not quite finished yet.
+          </div>
+        </div>
+        <div class="row">
+          <h2>Pair/Team</h2>
+          <div class="three columns blog-post">
+            I built this <a href="https://rene-justin-dado.github.io/quote-generator/">Quote Generator</a> with the help of the illustrious Amandine.
+          </div>
+          <div class="three columns blog-post">
+            Kamon and I built this <a href="https://rene-justin-dado.github.io/JS-calculator/">Calculator.</a> We solved our issues by figuring out a solution while asking for Rich's help. XD
+          </div>
+        </div>
+
+        <div class="flex-child suggest-bar">
+          <h3>Here's some things you might wanna checkout.</h3>
+          <iframe src="http://www.youtube.com/embed/CDsNZJTWw0w">You'll have to make it out of your cave to play this video.</iframe>
+          <br>
+          <p><a href="https://playoverwatch.com/en-us/#begin-your-watch">Overwatch</a> is also great!</p>
+          <br>
+          <img id="cat" src="http://pug.ir/Portals/0/CrossArticlePictures/139305/Image64553-11.jpg" alt="Cute Kitten">
+          <p>And here's a kitten.</p>
+        </div>
+    </div>
+
+    <div class="comments">Theoretical Future Comments Section</div>
+
+      <footer class="container">
+        <div>The Journey of a Thousand Miles Begins With One Step
+          <div class="u-pull-right">~Lao Tzu</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
