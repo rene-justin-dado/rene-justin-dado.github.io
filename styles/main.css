@@ -1,7 +1,8 @@
 /* General Element Styles */
-html {
+body, html {
   margin: 2%;
   font-size: 1.2em;
+  min-height: 100%;
 }
 
 header.container {
@@ -28,13 +29,12 @@ footer {
   top: 20px;
 }
 
-body:before {
-    background: url("../images/reach-for-the-stars.jpg") center top repeat-y;
+body {
+    background: url("../images/reach-for-the-stars.jpg") center top no-repeat;
+    content: '';
+    background-size: cover;
     content: '';
     opacity: 0.6;
-    width: 90%;
-    height: 90%;
-    position: absolute;
     left: 5%;
     z-index: -1;
 }
@@ -129,13 +129,11 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
   /* Background */
-  body:before {
-      background: url("../images/ghost-in-the-shell.jpg") center top repeat-y;
+  body {
+      background: url("../images/ghost-in-the-shell.jpg") center top no-repeat;
+      background-size: cover;
       content: '';
       opacity: 0.6;
-      width: 90%;
-      height: 90%;
-      position: absolute;
       left: 5%;
       z-index: -1;
   }
