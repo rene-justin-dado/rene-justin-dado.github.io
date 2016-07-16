@@ -1,19 +1,16 @@
 /* General Element Styles */
 body, html {
-  margin: 2%;
+  margin-bottom: 2%;
   font-size: 1.2em;
-  min-height: 100%;
 }
 
 header.container {
   border: solid 2px black;
-  border-radius: 5%;
+  border-radius: 10%;
   background: brown;
   padding-left: 5%;
-  margin-left: 3.5%;
-  width: 90%;
   position: fixed;
-  z-index: 5;
+  z-index: 9;
   top: 0;
 }
 
