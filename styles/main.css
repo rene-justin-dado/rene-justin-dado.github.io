@@ -53,24 +53,15 @@ body {
   background: teal;
 }
 
-.blog-type {
-  background: green;
-  opacity: 0.8;
-  overflow: auto;
-  height: 8em;
-}
-
-.blog-post {
-  background: #283979;
-  opacity: 0.8;
-  overflow: scroll;
-  height: 10em;
-}
-
-.blog-type h2, div.blog-post {
+.blog-type, .blog-post {
+  display: flex;
+  background: #DDD0D0;
   opacity: 1;
-  color: black;
+  overflow: auto;
+  height: 10em;
+  justify-content: center;
 }
+.blog-type { align-items: center; }
 
 .suggest-bar { display: none; }
 
