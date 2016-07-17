@@ -1,15 +1,22 @@
 body {
-    background-color: #ccf5f5;
+  background-color: #ccf5f5;
 }
 
 #gameholder {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #title {
-    width: 600px;
-    height: 150px;
-    background-image:url('');
+  width: 600px;
+  height: 150px;
+  background-image:url('../penguin_pngs/penguin_title.png');
+}
+
+.penguin1 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image:url('');
 }
