@@ -14,34 +14,71 @@ body {
   background-image:url('../penguin_pngs/penguin_title.png');
 }
 
-.1, .2, .3, .4, .5, .6, .7, .8, .yeti {
+.1:hover {
+  background-image:url('../penguin_pngs/mound_1_hover.png');
+  cursor: pointer;
+}
+
+.penguin1 {
   width: 200px;
   height: 200px;
   float: left;
-  background-image:url('../penguin_pngs/mound_1');
+  background-image:url('../penguin_pngs/mound_1.png');
 }
-.2 {
-  background-image:url('../penguin_pngs/mound_2');
+.penguin2 {
+  background-image:url('../penguin_pngs/mound_2.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
-.3 {
-  background-image:url('../penguin_pngs/mound_3');
+.penguin3 {
+  background-image:url('../penguin_pngs/mound_3.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
-.4 {
-  background-image:url('../penguin_pngs/mound_4');
+.penguin4 {
+  background-image:url('../penguin_pngs/mound_4.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
-.5 {
-  background-image:url('../penguin_pngs/mound_5');
+.penguin5 {
+  background-image:url('../penguin_pngs/mound_5.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
-.6 {
-  background-image:url('../penguin_pngs/mound_6');
+.penguin6 {
+  background-image:url('../penguin_pngs/mound_6.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
-.7 {
-  background-image:url('../penguin_pngs/mound_7');
+.penguin7 {
+  background-image:url('../penguin_pngs/mound_7.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
-.8 {
-  background-image:url('../penguin_pngs/mound_8');
+.penguin8 {
+  background-image:url('../penguin_pngs/mound_8.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
 
 .yeti {
-  background-image:url('../penguin_pngs/mound_9');
+  background-image:url('../penguin_pngs/mound_9.png');
+  width: 200px;
+  height: 200px;
+  float: left;
+
 }
