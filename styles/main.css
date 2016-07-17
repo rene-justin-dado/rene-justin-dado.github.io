@@ -18,12 +18,11 @@ header.container {
 
 footer {
   width: 100%;
-  margin-top: 10%;
   border: solid 2px black;
   border-radius: 5%;
   background: blue;
   position: relative;
-  top: 20px;
+  top: 1%;
 }
 
 body {
@@ -33,13 +32,12 @@ body {
     content: '';
     opacity: 0.6;
     left: 5%;
-    z-index: -1;
 }
 
 
 /* Class Styles */
 
-.content { margin-top: 10em; }
+.content { margin-bottom: 10em; }
 
 .welcome {
   padding: 3%;
@@ -61,8 +59,11 @@ body {
   min-height: 5em;
   max-height: 10em;
   justify-content: center;
+  align-self: center;
 }
-.blog-type { align-items: center; }
+.blog-type {
+  background: #3242D1;
+}
 
 .suggest-bar { display: none; }
 
@@ -122,7 +123,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
       content: '';
       opacity: 0.6;
       left: 5%;
-      z-index: -1;
   }
 }
 
