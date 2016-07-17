@@ -1,7 +1,7 @@
 // Constants
-const COLS = 26, ROWS = 26;
+var COLS = 26, ROWS = 26
 // IDs
-const EMPTY = 0, SNAKE = 1, FRUIT = 2
+var EMPTY = 0, SNAKE = 1, FRUIT = 2
 //Directions
 var LEFT = 0, UP = 1, RIGHT = 2, DOWN = 3
 
@@ -71,19 +71,18 @@ function setFood () {
       }
     }
   }
-  var randpos = empty [Math.floor(Math.random)*empty.length]
+  var randpos = empty [Math.floor(Math.random) * empty.length]
   grid.set(FRUIT, randpos.x, randpos.y)
 }
-
 
 // Game Objects
 var canvas, ctx, keystate, frames
 
 function main () {
-  canvas = document.createElement("canvas")
-  canvas.width = COLS*20
-  canvas.height = ROWS*20
-  ctx = canvas.getContext("2d")
+  canvas = document.createElement('canvas')
+  canvas.width = COLS * 20
+  canvas.height = ROWS * 20
+  ctx = canvas.getContext('2d')
   document.body.appendChild(canvas)
 
   frames = 0
@@ -121,24 +120,18 @@ function draw () {
     for (var y = 0; y < grid.height; y++) {
       switch (grid.get(x, y)) {
         case EMPTY:
-          ctx.fillStyle = "#fff"
+          ctx.fillStyle = '#fff'
           break;
         case SNAKE:
-          ctx.fillStyle = "#0ff"
+          ctx.fillStyle = '#0ff'
           break;
         case FRUIT:
-          ctx.fillStyle = "#f00"
+          ctx.fillStyle = '#f00'
           break;
       }
+      ctx.fillRect(x*tw, y*th, tw, th)
     }
   }
 }
 
 main()
-// Snake Interface {
-//   direction: where the head is,
-//   last: the last element in a queue,
-
-// Food Item {
-//   setFood(): set food id at random free cell
-// }
