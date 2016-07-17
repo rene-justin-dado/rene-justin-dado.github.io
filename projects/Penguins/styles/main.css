@@ -14,9 +14,34 @@ body {
   background-image:url('../penguin_pngs/penguin_title.png');
 }
 
-.penguin1 {
+.1, .2, .3, .4, .5, .6, .7, .8, .yeti {
   width: 200px;
   height: 200px;
   float: left;
-  background-image:url('');
+  background-image:url('../penguin_pngs/mound_1');
+}
+.2 {
+  background-image:url('../penguin_pngs/mound_2');
+}
+.3 {
+  background-image:url('../penguin_pngs/mound_3');
+}
+.4 {
+  background-image:url('../penguin_pngs/mound_4');
+}
+.5 {
+  background-image:url('../penguin_pngs/mound_5');
+}
+.6 {
+  background-image:url('../penguin_pngs/mound_6');
+}
+.7 {
+  background-image:url('../penguin_pngs/mound_7');
+}
+.8 {
+  background-image:url('../penguin_pngs/mound_8');
+}
+
+.yeti {
+  background-image:url('../penguin_pngs/mound_9');
 }
