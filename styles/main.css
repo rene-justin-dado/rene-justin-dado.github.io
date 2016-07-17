@@ -80,18 +80,16 @@ columns { padding: 10%; }
   /* Flexbox */
   .flexbox {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
   .suggest-bar {
-    display: initial;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     max-width: 30%;
-    justify-self: flex-end;
-    align-self: flex-start;
     border: 2px solid teal;
-    background: transparent;
+    background: beige;
   }
 
   /* Youtube Embed */
