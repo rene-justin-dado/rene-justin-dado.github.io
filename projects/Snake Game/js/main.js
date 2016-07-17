@@ -18,7 +18,7 @@ var grid = {
     this._grid = []
     for (var x = 0; x < col; x++) {
       for (var y = 0; y < row; y++) {
-        this._grid[x].push(d)
+        this._grid.push(d)
       }
     }
   },
@@ -40,14 +40,15 @@ var snake = {
   // clears queue and sets start point and direction
   init: function (d, x, y) {
     this.direction = d
-    this.insert (x, y)
+    this.insert(x, y)
   },
 
   // add element to queue
   insert: function (x, y) {
+    this._queue = []
     this._queue.unshift({
-      x:x,
-      y:y
+      x: x,
+      y: y
     })
     this.last = this._queue[0]
   },
@@ -65,8 +66,8 @@ function setFood () {
     for (var y = 0; y < grid.height; y++) {
       if (grid.get(x, y) === EMPTY) {
         empty.push({
-          x:x,
-          y:y
+          x: x,
+          y: y
         })
       }
     }
@@ -95,10 +96,10 @@ function init () {
   grid.init(EMPTY, COLS, ROWS)
 
   var sp = {
-    x:Math.floor(COLS/2),
-    y:ROWS-1
+    x: Math.floor(COLS / 2),
+    y: ROWS - 1
   }
-  snake.init(DOWN, sp.x, sp.y)
+  snake.init(UP, sp.x, sp.y)
   grid.set(SNAKE, sp.x, sp.y)
 
   setFood()
@@ -113,23 +114,23 @@ function update () {
   frames++
 }
 function draw () {
-  var tw = canvas.width/grid.width
-  var th = canvas.height/grid.height
+  var tw = canvas.width / grid.width
+  var th = canvas.height / grid.height
 
-    for (var x = 0; x < grid.width; x++) {
+  for (var x = 0; x < grid.width; x++) {
     for (var y = 0; y < grid.height; y++) {
       switch (grid.get(x, y)) {
         case EMPTY:
           ctx.fillStyle = '#fff'
-          break;
+          break
         case SNAKE:
           ctx.fillStyle = '#0ff'
-          break;
+          break
         case FRUIT:
           ctx.fillStyle = '#f00'
-          break;
+          break
       }
-      ctx.fillRect(x*tw, y*th, tw, th)
+      ctx.fillRect(x * tw, y * th, tw, th)
     }
   }
 }
